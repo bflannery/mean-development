@@ -55,3 +55,4 @@
     - ##### "Angular, Express, Node, MySQL": https://www.mongodb.com/blog/post/the-modern-application-stack-part-1-introducing-the-mean-stack
     - ##### “MEAN App From Scratch”  Video:  https://www.youtube.com/watch?v=PFP0oXNNveg&t=2374s
     - ##### "MEAN Stack App Series": https://www.youtube.com/watch?v=6zfnOrHIUtA&t=241s
+    - ##### "Heroku: Create a Web App and RESTful API Server Using the MEAN Stack": https://devcenter.heroku.com/articles/mean-apps-restful-api
