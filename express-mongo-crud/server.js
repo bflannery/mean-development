@@ -7,6 +7,9 @@ const MongoClient = require('mongodb').MongoClient;
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   db.collection('quotes').find().toArray((err, result) => {
@@ -23,6 +26,41 @@ app.post('/quotes', (req, res)=> {
     res.redirect('/');
   });
 });
+
+app.put('/quotes', (req, res) => {
+  db.collection('quotes').findOneAndUpdate(
+    //Query
+  {name: 'Yoda'},
+   //Update
+  {
+    $set: {
+      name: req.body.name,
+      quote: req.body.quote
+    }
+  },
+  //Options
+  {
+    sort: {_id: -1},
+    upsert: true
+  },
+    //Callback
+    (err, result) => {
+      if(err) return res.send(err);
+      res.send(result);
+    });
+  });
+
+app.delete('/quotes', (req,res) => {
+  db.collection('quotes').findOneAndDelete(
+    {name: req.body.name},
+    (err, result) => {
+      if(err) return res.send(500, err);
+
+    res.send("A darth vader quote got deleted");
+    
+
+    });
+  });
 
 let db;
 
