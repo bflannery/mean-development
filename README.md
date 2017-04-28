@@ -54,5 +54,5 @@
     - ##### "Mean With Angular CLI": https://scotch.io/tutorials/mean-app-with-angular-2-and-the-angular-cli
     - ##### "Angular, Express, Node, MySQL": https://www.mongodb.com/blog/post/the-modern-application-stack-part-1-introducing-the-mean-stack
     - ##### “MEAN App From Scratch”  Video:  https://www.youtube.com/watch?v=PFP0oXNNveg&t=2374s
-    - ##### "MEAN Stack App Series": https://www.youtube.com/watch?v=6zfnOrHIUtA&t=241s
-    - ##### "Heroku: Create a Web App and RESTful API Server Using the MEAN Stack": https://devcenter.heroku.com/articles/mean-apps-restful-api
+    - ##### "Angular 2 Tutorial: Create a CRUD App With Angular CLI": https://www.sitepoint.com/angular-2-tutorial/
+    - ##### "Heroku: Create a Web App and RESTful API Server Using the MEAN Stack" (Issue with ng-build): https://devcenter.heroku.com/articles/mean-apps-restful-api
