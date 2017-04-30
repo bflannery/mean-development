@@ -16,6 +16,15 @@
       - ##### “19 Things I Learnt Reading The Node Docs” : https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f
       - ##### "Why I Left Gulp and Grunt for NPM": https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
       - ##### "Making Sense of Front-End Build Tools": https://medium.freecodecamp.com/making-sense-of-front-end-build-tools-3a1b3a87043b
+      - ##### "EloquentJS: Node": http://eloquentjavascript.net/20_node.html
+      - ##### "RisingStack": https://blog.risingstack.com/
+      
+- ## Javascript
+  - ### Website:
+
+  - ### Articles:
+    - ##### "Top Javascript Frameworks to Learn in 2017": https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711?source=userActivityShare-8c9b0d47a655-1493517588
+    - ##### "A Guide To Javascript Developement": https://hackernoon.com/a-map-to-modern-javascript-development-2017-16d9eb86309c?source=linkShare-8c9b0d47a655-1493434737
 
 
 - ## Express.js
@@ -25,7 +34,8 @@
   - ### Tutorials
     - ##### "RESTful API Design With Node.js (using Express)": https://hackernoon.com/restful-api-design-with-node-js-26ccf66eab09
     - ##### "Express Under The Hood": https://medium.com/man-moon/express-js-under-the-hood-6452c897b316
-    - ##### "Building A Simple CRUD Application with Express and MongoDB (1 fo 2)"": https://medium.freecodecamp.com/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd
+    - ##### "Building A Simple CRUD Application with Express and MongoDB (1 of 2)": https://medium.freecodecamp.com/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd
+    - ##### "Building RESTful APIs with Express and MongoDB": https://www.djamseed.com/2016/03/30/building-restful-apis-with-express-and-mongodb/
 
 
 - ## Angular
