@@ -15,7 +15,7 @@ import {DataService} from './data.service';
 })
 
 @Injectable()
-export class SampleComponent implements OnInit { 
+export class SampleComponent implements OnInit {
 	SampleDocResult: string = "";
 	SampleDocError: string = "";
 
@@ -29,7 +29,7 @@ export class SampleComponent implements OnInit {
 
 	ngOnInit() {
 		}
-	
+
 	syntaxHighlight(jsonObject: Object) {
 		var json: string;
 
@@ -43,7 +43,7 @@ export class SampleComponent implements OnInit {
 		this.SampleDocResult = "";
 		this.SampleDocError = "";
 		this.onSample.emit(false);
-		
+
 		this.dataService.sendSampleDoc(CollName, NumberDocs)
 		.subscribe(
 			results => {
